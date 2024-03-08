@@ -1,0 +1,24 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": "10.2"
+  },
+  "scripts": {
+    "start": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.10.2",
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.10.2",
+    "prisma-client": "^0.0.0"
+  }
+}
